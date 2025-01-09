@@ -5,30 +5,22 @@ import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Contact from "./Contact.jsx";
 import Project from "./Project.jsx";
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 
 
 function App(){
   return(
     <>
-<Router>
 
 <Navbar></Navbar>
-<Routes>
-  <Route path='/' element={<Home></Home>}></Route>
-  <Route path='/about' element={<About></About>}></Route>
-  <Route path='/contact' element={<Contact></Contact>}></Route>
-  <Route path='/project' element={<Project></Project>}></Route>
+<Home></Home>
+<About></About>
+<Contact></Contact>
+<Project></Project>
 
-
-
-
-</Routes>
 
 
 <Footer></Footer>
 
-</Router>
 
   
     
