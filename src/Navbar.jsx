@@ -92,7 +92,7 @@ function Navbar(){
         <div className="container-fluid">
           <a className="navbar-brand ms-5" href="#">
             <img
-              src="/img/logo.png"
+              src="logo2.png"
               height="75px"
               width="70px"
               className="img-fluid img-thumbnail p-0 mt-1 navbar-brand-logo"

@@ -33,7 +33,7 @@ body {
   }
 
 .icon1:hover{
-    background-color:grey !important;
+    background-color:rgb(249, 169, 103) !important;
     color: white !important;
     border-radius: 5px !important;
     padding: 5px 10px 5px 10px !important;
@@ -490,6 +490,128 @@ transform: scale(1); /* Full size */
     transition: transform 0.3s ease; /* Smooth zoom */
 }
 
+
+.counter-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .counter-box:hover {
+    transform: translateY(-10px);
+  }
+
+  .counter-ico {
+    margin-bottom: 15px;
+  }
+
+  .counter-ico i {
+    font-size: 40px;
+    color: #007bff;
+  }
+
+  .counter-num p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+
+  .counter-text {
+    font-size: 16px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* Counter animation */
+  .counter {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @media(max-width:667px){
+      .counter{
+          padding-left:0px !important;
+      }
+      .counter-box{
+          width: 80%;
+
+      }
+  }
+
+  .counter-box {
+          background-color: #f8f9fa;
+          border-radius: 10px;
+          padding: 30px;
+          text-align: center;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+      
+        .counter-box:hover {
+          transform: translateY(-10px);
+        }
+      
+        .counter-ico {
+          margin-bottom: 15px;
+        }
+      
+        .counter-ico i {
+          font-size: 40px;
+          color: #007bff;
+        }
+      
+        .counter-num p {
+          font-size: 36px;
+          font-weight: bold;
+          margin: 0;
+          color: #333;
+        }
+      
+        .counter-text {
+          font-size: 16px;
+          color: #666;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+      
+        /* Counter animation */
+        .counter {
+          animation: fadeIn 1s ease-in-out;
+        }
+      
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: scale(0.8);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+        @media(max-width:667px){
+            .counter{
+                padding-left:0px !important;
+            }
+            .counter-box{
+                width: 80%;
+
+            }
+        }
 
     
     
