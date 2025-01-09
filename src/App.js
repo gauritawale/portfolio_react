@@ -1,33 +1,24 @@
-import React from "react";
-import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
-import Home from "./Home.jsx";
-import About from "./About.jsx";
-import Contact from "./Contact.jsx";
-import Project from "./Project.jsx";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Navbar';
+// import Footer from './Footer';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import Project from './Project';
 
-
-function App(){
-  return(
-    <>
-
-<Navbar></Navbar>
-<Home></Home>
-<About></About>
-<Contact></Contact>
-<Project></Project>
-
-
-
-<Footer></Footer>
-
-
-  
-    
-    </>
-
-  )
- 
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home></Home>} />
+        <Route path="/about" element={<About></About>} />
+        <Route path="/contact" element={<Contact></Contact>} />
+        <Route path="/project" element={<Project></Project>} />
+      </Routes>
+      {/* <Footer /> */}
+    </Router>
+  );
 }
 
 export default App;
