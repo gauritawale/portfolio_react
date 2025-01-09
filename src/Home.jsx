@@ -2,6 +2,7 @@ import React from "react";
 
 function Home() {
     return (
+        <>
         <section id="home" style={{ overflow: "hidden" }}>
             <div className="container-fluid main" style={{ overflow: "hidden" }}>
                 <div className="row mt-3">
@@ -19,6 +20,7 @@ function Home() {
                 </div>
             </div>
         </section>
+        </>
     );
 }
 
