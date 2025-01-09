@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './style.css'
 
 
 function Navbar(){
@@ -93,7 +94,7 @@ function Navbar(){
         <div className="container-fluid">
           <NavLink className="navbar-brand ms-5" to="#">
             <img
-              src="img/logo2.png"
+              src="/img/logo2.png"
               height="75px"
               width="70px"
               className="img-fluid img-thumbnail p-0 mt-1 navbar-brand-logo"
